@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">MetaWeather API Tests</th></tr>
+<tr><td><a href="#t0">Location Day API Tests</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">3</td><td class="num">18,662</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MetaWeather API Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Location Day API Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.testcases.LocationDayAPITest</td><td><a href="#m0">verifyLocationDayAPIResponse</a></td><td rowspan="1">1611704243057</td><td rowspan="1">1814</td></tr><tr class="failedeven"><td><a href="#m1">verifyLocationDayAPIResponseFieldsAreNotNull</a></td><td rowspan="2">1611704244885</td><td rowspan="2">1820</td></tr><tr class="failedeven"><td><a href="#m2">verifyLocationDayAPIResponseFieldsAreNotNull</a></td></tr><tr><th colspan="4">Location Day API Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.testcases.LocationDayAPITest</td><td><a href="#m3">checkWeatherByLocationAndDate</a></td><td rowspan="3">1611704236514</td><td rowspan="3">1641</td></tr><tr class="passedeven"><td><a href="#m4">checkWeatherByLocationAndDate</a></td></tr><tr class="passedeven"><td><a href="#m5">checkWeatherByLocationAndDate</a></td></tr><tr class="passedeven"><td><a href="#m6">verifyLocationDayAPIResponse</a></td><td rowspan="2">1611704239702</td><td rowspan="2">1496</td></tr><tr class="passedeven"><td><a href="#m7">verifyLocationDayAPIResponse</a></td></tr></tbody>
+</table>
+<h2>Location Day API Tests</h2><h3 id="m0">com.testcases.LocationDayAPITest#verifyLocationDayAPIResponse</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>VerifyLocationDayAPIResponseTestData [location=Delhi, date=20211/1/31, expectedStatusCode=404, expectedContentType=application/json]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ContentType mismatch found -  expected [application/json] but found [text/html; charset=utf-8]
+	at com.testcases.LocationDayAPITest.verifyLocationDayAPIResponse(LocationDayAPITest.java:39)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testcases.LocationDayAPITest#verifyLocationDayAPIResponseFieldsAreNotNull</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>WeatherByLocationAndDateTestData [location=Nottingham, date=2021/1/30]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	VISIBILITY field at position 31 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 32 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 33 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 34 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 35 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 36 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 37 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 38 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 39 of JSON object is empty -  expected object to not be null
+	at com.testcases.LocationDayAPITest.verifyLocationDayAPIResponseFieldsAreNotNull(LocationDayAPITest.java:103)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.testcases.LocationDayAPITest#verifyLocationDayAPIResponseFieldsAreNotNull</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>WeatherByLocationAndDateTestData [location=Bangalore, date=2021/1/31]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	VISIBILITY field at position 26 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 27 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 28 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 29 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 30 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 31 of JSON object is empty -  expected object to not be null,
+	VISIBILITY field at position 32 of JSON object is empty -  expected object to not be null
+	at com.testcases.LocationDayAPITest.verifyLocationDayAPIResponseFieldsAreNotNull(LocationDayAPITest.java:103)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.testcases.LocationDayAPITest#checkWeatherByLocationAndDate</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>WeatherByLocationAndDateTestData [location=Mumbai, date=2021/1/31]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.testcases.LocationDayAPITest#checkWeatherByLocationAndDate</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>WeatherByLocationAndDateTestData [location=Bangalore, date=2021/1/31]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.testcases.LocationDayAPITest#checkWeatherByLocationAndDate</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>WeatherByLocationAndDateTestData [location=Nottingham, date=2021/1/30]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.testcases.LocationDayAPITest#verifyLocationDayAPIResponse</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>VerifyLocationDayAPIResponseTestData [location=Nottingham, date=2021/1/30, expectedStatusCode=200, expectedContentType=application/json]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.testcases.LocationDayAPITest#verifyLocationDayAPIResponse</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>VerifyLocationDayAPIResponseTestData [location=Bangalore, date=2021/1/31, expectedStatusCode=200, expectedContentType=application/json]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MetaWeather API Tests" parallel="false">
+
+	<listeners>
+		<listener class-name="com.listeners.ExtentListeners">
+		</listener>
+	</listeners>
+
+	<test name="Location Day API Tests">
+		<classes>
+			<!-- <class name="com.testcases.LocationSearchTest" /> -->
+			<class name="com.testcases.LocationDayAPITest" />
+		</classes>
+	</test>
+
+</suite>

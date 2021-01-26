@@ -1,0 +1,22 @@
+!!com.data.yaml.AllTestCaseData
+allTestCaseDataMap:
+  validateLocationSearchResponseForNotNull:
+  - !!com.data.yaml.LocationSearchTestData {location: Nottingham, expectedStatusCode: 200, testCategory: smoke}
+  - !!com.data.yaml.LocationSearchTestData {location: Bangalore,  expectedStatusCode: 200, testCategory: smoke}
+  
+  # Enter date is yyyy/MM/dd format. For ex, 2021/2/15.
+  verifyLocationDayAPIResponse:
+  - !!com.data.yaml.VerifyLocationDayAPIResponseTestData {location: Nottingham, date: 2021/1/30, expectedStatusCode: 200, expectedContentType: application/json, testCategory: smoke}
+  - !!com.data.yaml.VerifyLocationDayAPIResponseTestData {location: Bangalore,  date: 2021/1/31, expectedStatusCode: 200, expectedContentType: application/json, testCategory: smoke}
+  - !!com.data.yaml.VerifyLocationDayAPIResponseTestData {location: Delhi,  date: 20211/1/31, expectedStatusCode: 404, expectedContentType: application/json, testCategory: smoke}
+    
+  # Enter date is yyyy/MM/dd format. For ex, 2021/2/15.
+  checkWeatherByLocationAndDate:
+  - !!com.data.yaml.WeatherByLocationAndDateTestData {location: Nottingham, date: 2021/1/30, testCategory: smoke}
+  - !!com.data.yaml.WeatherByLocationAndDateTestData {location: Mumbai,  date: 2021/1/31, testCategory: smoke}
+  - !!com.data.yaml.WeatherByLocationAndDateTestData {location: Bangalore,  date: 2021/1/31, testCategory: smoke}
+  
+   # Enter date is yyyy/MM/dd format. For ex, 2021/2/15.
+  verifyLocationDayAPIResponseFieldsAreNotNull:
+  - !!com.data.yaml.WeatherByLocationAndDateTestData {location: Nottingham, date: 2021/1/30, testCategory: smoke}
+  - !!com.data.yaml.WeatherByLocationAndDateTestData {location: Bangalore,  date: 2021/1/31, testCategory: smoke}

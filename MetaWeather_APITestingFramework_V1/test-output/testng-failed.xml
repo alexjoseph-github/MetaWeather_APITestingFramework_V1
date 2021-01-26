@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MetaWeather API Tests]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Location Day API Tests(failed)">
+    <classes>
+      <class name="com.testcases.LocationDayAPITest">
+        <methods>
+          <include name="verifyLocationDayAPIResponseFieldsAreNotNull" invocation-numbers="0 1"/>
+          <include name="verifyLocationDayAPIResponse" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.testcases.LocationDayAPITest -->
+    </classes>
+  </test> <!-- Location Day API Tests(failed) -->
+</suite> <!-- Failed suite [MetaWeather API Tests] -->

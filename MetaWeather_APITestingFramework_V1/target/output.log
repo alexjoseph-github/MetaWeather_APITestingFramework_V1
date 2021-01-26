@@ -1,0 +1,72 @@
+2021-01-27 04:37:31 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 04:37:36 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 04:37:36 INFO  LocationDayAPI:39 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 04:37:39 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Mumbai
+2021-01-27 04:37:41 INFO  LocationSearchAPI:44 - Where On Earth ID of Mumbai is [12586539]
+2021-01-27 04:37:41 INFO  LocationDayAPI:39 - URL to be hit for location Mumbai: https://www.metaweather.com/api/location/12586539/2021/1/31
+2021-01-27 04:37:45 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 04:37:46 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 04:37:46 INFO  LocationDayAPI:39 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31
+2021-01-27 04:37:47 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 04:37:48 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 04:37:48 INFO  LocationDayAPI:65 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 04:37:50 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 04:37:53 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 04:37:53 INFO  LocationDayAPI:65 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31
+2021-01-27 04:37:55 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Delhi
+2021-01-27 04:37:56 INFO  LocationSearchAPI:44 - Where On Earth ID of Delhi is [28743736]
+2021-01-27 04:37:56 INFO  LocationDayAPI:65 - URL to be hit for location Delhi: https://www.metaweather.com/api/location/28743736/20211/1/31
+2021-01-27 04:37:58 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 04:37:58 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 04:37:58 INFO  LocationDayAPI:39 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 04:38:01 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 04:38:03 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 04:38:03 INFO  LocationDayAPI:39 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31
+2021-01-27 04:59:01 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 04:59:04 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 04:59:04 INFO  LocationDayAPI:39 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 04:59:06 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Mumbai
+2021-01-27 04:59:06 INFO  LocationSearchAPI:44 - Where On Earth ID of Mumbai is [12586539]
+2021-01-27 04:59:06 INFO  LocationDayAPI:39 - URL to be hit for location Mumbai: https://www.metaweather.com/api/location/12586539/2021/1/31
+2021-01-27 04:59:07 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 04:59:08 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 04:59:08 INFO  LocationDayAPI:39 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31
+2021-01-27 04:59:09 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 04:59:09 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 04:59:09 INFO  LocationDayAPI:65 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 04:59:11 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 04:59:11 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 04:59:11 INFO  LocationDayAPI:65 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31
+2021-01-27 04:59:12 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Delhi
+2021-01-27 04:59:13 INFO  LocationSearchAPI:44 - Where On Earth ID of Delhi is [28743736]
+2021-01-27 04:59:13 INFO  LocationDayAPI:65 - URL to be hit for location Delhi: https://www.metaweather.com/api/location/28743736/20211/1/31
+2021-01-27 04:59:14 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 04:59:14 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 04:59:14 INFO  LocationDayAPI:39 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 04:59:16 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 04:59:16 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 04:59:16 INFO  LocationDayAPI:39 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31
+2021-01-27 05:07:10 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 05:07:15 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 05:07:15 INFO  LocationDayAPI:39 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 05:07:16 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Mumbai
+2021-01-27 05:07:17 INFO  LocationSearchAPI:44 - Where On Earth ID of Mumbai is [12586539]
+2021-01-27 05:07:17 INFO  LocationDayAPI:39 - URL to be hit for location Mumbai: https://www.metaweather.com/api/location/12586539/2021/1/31
+2021-01-27 05:07:18 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 05:07:18 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 05:07:18 INFO  LocationDayAPI:39 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31
+2021-01-27 05:07:19 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 05:07:20 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 05:07:20 INFO  LocationDayAPI:65 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 05:07:21 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 05:07:21 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 05:07:21 INFO  LocationDayAPI:65 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31
+2021-01-27 05:07:23 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Delhi
+2021-01-27 05:07:23 INFO  LocationSearchAPI:44 - Where On Earth ID of Delhi is [28743736]
+2021-01-27 05:07:23 INFO  LocationDayAPI:65 - URL to be hit for location Delhi: https://www.metaweather.com/api/location/28743736/20211/1/31
+2021-01-27 05:07:24 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Nottingham
+2021-01-27 05:07:25 INFO  LocationSearchAPI:44 - Where On Earth ID of Nottingham is [30720]
+2021-01-27 05:07:25 INFO  LocationDayAPI:39 - URL to be hit for location Nottingham: https://www.metaweather.com/api/location/30720/2021/1/30
+2021-01-27 05:07:26 INFO  LocationSearchAPI:40 - URL to be hit:https://www.metaweather.com/api/location/search/?query=Bangalore
+2021-01-27 05:07:27 INFO  LocationSearchAPI:44 - Where On Earth ID of Bangalore is [2295420]
+2021-01-27 05:07:27 INFO  LocationDayAPI:39 - URL to be hit for location Bangalore: https://www.metaweather.com/api/location/2295420/2021/1/31

@@ -1,0 +1,6 @@
+--- 
+apis: 
+  baseURL: "https://www.metaweather.com"
+  basePath: /api/location
+  searchQuery: /search/?query=
+  cases_to_be_run: smoke
